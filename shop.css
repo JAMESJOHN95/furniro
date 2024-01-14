@@ -1,0 +1,196 @@
+/* ****************************************   Navebar  *************************************************************************/
+
+.navebar {
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 32px;
+}
+
+.heading {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px;
+    margin-left: -320px;
+}
+
+.headnav {
+    display: flex;
+    padding: 5px;
+}
+
+.lnav {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+@media(max-width:1400px) {
+    .heading {
+        margin-left: -325px;
+    }
+
+    .lnav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:1200px) {
+    .heading {
+        margin-left: -240px;
+    }
+
+    .lnav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:992px) {
+    .heading {
+        margin-left: -90px;
+    }
+
+    .lnav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .heading {
+        margin-left: 0px;
+    }
+
+    .lnav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:600px) {
+    .heading {
+        margin-left: 0px;
+    }
+
+    .lnav {
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+}
+
+/* ****************************************  shop  ********************************************************************/
+
+.shop {
+    display: flex;
+    background-image: url(./images/shop/Rectangle\ 1.png);
+    height: 316px;
+    background-size: cover;
+}
+
+.shophead {
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px; */
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.shopp1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+}
+
+/* *********************************************** product**********************************************/
+
+.prorow {
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 15px; */
+}
+
+/* ********************************************************button*********************************** */
+.shopbutton {
+    color: black;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F9F1E7;
+    margin: 10px;
+
+}
+
+.shopbutton:active {
+    background-color: var(--Primary, #B88E2F);
+    color: white;
+    border: none;
+}
+
+.shopbutton:hover {
+    border: rgb(28, 137, 176) solid 2px;
+}
+
+/* ****************************************************************Quality********************************************** */
+
+.quality {
+}
+.qualitydiv
+{
+    background-color: #FAF3EA;
+}
+
+/* ***********************************************************footer******************************************************/
+
+.footer{
+width: 80%;
+/* background-color: yellow; */
+/* height: 100px; */
+margin-left: auto;
+margin-right: auto;
+
+}
+.linkfooter
+{
+text-decoration: none;
+color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.headfooter
+{
+    color: #9F9F9F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

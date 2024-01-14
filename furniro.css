@@ -1,0 +1,281 @@
+/* ****************************************   Navebar  *************************************************************************/
+
+.navebar {
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 32px;
+}
+
+.heading {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px;
+    margin-left: -320px;
+}
+
+.headnav {
+    display: flex;
+    padding: 5px;
+}
+
+.lnav {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+@media(max-width:1400px) {
+    .heading {
+        margin-left: -325px;
+    }
+
+    .lnav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:1200px) {
+    .heading {
+        margin-left: -240px;
+    }
+
+    .lnav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:992px) {
+    .heading {
+        margin-left: -90px;
+    }
+
+    .lnav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .heading {
+        margin-left: 0px;
+    }
+
+    .lnav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:600px) {
+    .heading {
+        margin-left: 0px;
+    }
+
+    .lnav {
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+}
+
+
+/* /**********************************DISCOVER ********************************************************** */
+
+.discover {
+
+    height: 718px;
+    width: 100%;
+    background-image: url(./images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    padding-right: 50px;
+    padding-left: 750px;
+    padding-top: 220px;
+    background-size: cover;
+}
+
+.disc_child {
+
+    /* display: flex;
+    justify-content: space-around; */
+    width: 530px;
+    height: 443px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF3E3;
+    padding: 45px;
+}
+
+.arrival {
+    color: var(--Font-Color, #333);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.new {
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    /* 125% */
+    width: 559px;
+    height: 127px;
+    flex-shrink: 0;
+}
+
+.p1 {
+    width: 546px;
+    height: 52px;
+    flex-shrink: 0;
+    color: var(--Font-Color, #333);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.b1 {
+    display: inline-flex;
+    padding: 15px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--Primary, #B88E2F);
+    border: none;
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@media(max-width:1300px) {
+    .discover {
+        padding-left: 600px;
+        background-size: cover;
+    }
+
+    .disc_child {}
+}
+
+@media(max-width:1144px) {
+    .discover {
+        padding-left: 450px;
+        background-size: cover;
+    }
+
+    .disc_child {}
+}
+
+@media(max-width:1000px) {
+    .discover {
+        padding-left: 300px;
+
+    }
+
+    .disc_child {}
+}
+
+@media(max-width:850px) {
+    .discover {
+        padding-left: 150px;
+
+    }
+
+    .disc_child {}
+}
+
+@media(max-width:700px) {
+    .discover {
+        padding-left: 50px;
+
+    }
+
+    .disc_child {}
+}
+
+/*****************************************Browse the Range-*****************************************************************************  */
+
+.browse {
+    height: 720px;
+    width: 75%;
+    padding: 15px;
+}
+
+.p2 {
+    color: var(--Font-Color1, #666);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.browse_head {
+
+    text-align: center;
+    color: var(--Font-Color, #333);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card {
+border: none;
+}
+
+.card-title {
+    text-align: center;
+}
+
+/* .card-img-top {
+    border: none;
+
+} */
+
+.card-bode {
+    border: none;
+}
+
+/* ************************************************************ our products************************************************************** */
+
+.products
+{
+    /* width: 85% */
+    /* height: 450px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    
+}
+.card-title-pro
+{
+    text-align: start;
+}
